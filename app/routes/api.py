@@ -21,7 +21,7 @@ def signup():
         db.add(newUser)
         db.commit()
     except:
-        print(sys.exe_info()[0])
+        print(sys.exc_info()[0])
         db.rollback()
         session.clear()
         session["user_id"] = newUser.id
