@@ -42,6 +42,10 @@ In the process of developing this application, the following concepts were learn
 - Creating custom decorator functions.
 - This project emphasizes the realization that while the syntax may differ, core concepts like servers, requests, templates, models, conditionals, and errors remain the same across different languages. It showcases that if these core concepts are well understood, transitioning to a new programming language becomes a manageable task.
 
+## Link to Heroku
+
+https://pythonnewsfeed.herokuapp.com/
+
 ## Future Improvements
 
 To continue learning and practicing Python, the plan is to build another Flask web app from scratch or explore other uses of Python such as scripting or software development.
