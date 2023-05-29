@@ -1,23 +1,48 @@
-# Introduction
+# Python Flask Web App - Just Tech News
 
-At this point in your web development journey, you've learned several back-end technologies, including the following:
+This is a web application developed using Flask, a Python micro-framework. The app is called "Just Tech News," where users can submit links to tech-related articles, comment on other users' articles, and upvote articles for points. This app was originally developed with Node.js and has been refactored to use Python's Flask framework instead.
 
-- Node.js—a JavaScript runtime environment
+Python is a widely popular programming language known for its simple syntax, active community, and numerous libraries. It has diverse uses ranging from machine learning to standalone software.
 
-- Express.js—a library that facilitates web server features in Node.js
+## Built
 
-- Sequelize—an object-relational mapper (ORM) that abstracts database tables as models
+- Python - Main programming language for this application.
+- Flask - A Python micro-framework used for developing the web application.
+- SQLAlchemy - An Object Relational Mapper (ORM) that abstracts database tables as models.
+- Jinja - A modern and designer-friendly templating language for Python.
 
-- Handlebars.js—a template engine for delivering HTML and data together
+## Features
 
-These technologies all belong to the JavaScript ecosystem, but not every company uses JavaScript for their back-end needs. The Python programming language, for instance, is a popular alternative to Node.js.
+- User registration and login.
+- Submitting tech-related articles.
+- Commenting on other users' articles.
+- Upvoting articles for points.
+- Deployment
+- The application is deployed on Heroku using Gunicorn to run Flask.
 
-## Python's many benefits include the following:
+## How to Use
 
-- An intentionally simple syntax
+- Register and log into the application.
+- Submit tech-related articles and read those submitted by others.
+- Comment and upvote on interesting articles.
 
-- An active community that boasts many libraries
+## Learning Outcomes
 
-- A wide range of uses, from machine learning to standalone software
+In the process of developing this application, the following concepts were learned and implemented:
 
-In this module, we'll use Python as the basis for a web server. Instead of building it from scratch, we'll refactor the back end of an app that was originally built using Node.js. The app, called Just Tech News, lets users submit links to tech-related articles, comment on other users' articles, and upvote articles for points.
+- Setting up a virtual environment for Python using the venv module.
+- Defining functions and classes using Python syntax.
+- Creating and importing Python packages and modules.
+- Using the Flask library to create GET, POST, PUT, and DELETE routes.
+- Creating MySQL tables using the SQLAlchemy ORM.
+- Querying a database using SQLAlchemy methods.
+- Handling errors using assert and try...except statements.
+- Using the contextual g and session objects of Flask across routes.
+- Importing custom filter functions into Jinja templates.
+- Creating custom decorator functions.
+- This project emphasizes the realization that while the syntax may differ, core concepts like servers, requests, templates, models, conditionals, and errors remain the same across different languages. It showcases that if these core concepts are well understood, transitioning to a new programming language becomes a manageable task.
+
+Future Improvements
+To continue learning and practicing Python, the plan is to build another Flask web app from scratch or explore other uses of Python such as scripting or software development.
+
+Happy Coding!
