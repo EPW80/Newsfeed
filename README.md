@@ -46,6 +46,8 @@ In the process of developing this application, the following concepts were learn
 
 https://pythonnewsfeed.herokuapp.com/
 
+![](./demo.gif)
+
 ## Future Improvements
 
 To continue learning and practicing Python, the plan is to build another Flask web app from scratch or explore other uses of Python such as scripting or software development.
